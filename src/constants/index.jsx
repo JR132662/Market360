@@ -20,19 +20,19 @@ export const navItems = [
 
 export const testimonials = [
   {
-    user: "John Doe",
+    user: "Dennis Rodham",
     company: "Stellar Solutions",
     image: user1,
     text: "I am extremely satisfied with the cleaning services provided upon moving into our new law firm office. The team was responsive, professional, and delivered results beyond my expectations, leaving our new space spotless and ready for business.",
   },
   {
-    user: "Jane Smith",
+    user: "Suhem Lopez",
     company: "Blue Horizon Technologies",
     image: user2,
     text: "Working with this stucco repair company was a pleasure. Their attention to detail and commitment to excellence in repairing cracks and damages are commendable. I would highly recommend them to anyone looking for top-notch stucco repair services.",
   },
   {
-    user: "David Johnson",
+    user: "David Aguiar",
     company: "Quantum Innovations",
     image: user3,
     text: "I used Market360 for our office. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch cleaning service.",
@@ -44,13 +44,13 @@ export const testimonials = [
     text: "I am extremely satisfied with the painting services provided. The team was responsive, professional, and delivered a beautifully painted office beyond my expectations.",
   },
   {
-    user: "Michael Wilson",
+    user: "Michael Lyon",
     company: "Visionary Creations",
     image: user5,
     text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results. We hired the for pressure washing our business and the results were outstanding",
   },
   {
-    user: "Emily Davis",
+    user: "Emily Rodriguez",
     company: "Synergy Systems",
     image: user6,
     text: "The team went above and beyond to ensure our Airbnb was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future. Theyre always on time and clean so my next rental is ready",

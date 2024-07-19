@@ -9,7 +9,11 @@ const Pricing2 = () => {
       <div className="flex flex-wrap">
         {pricingOptions.map((option, index) => (
           <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-2">
-            <div className="p-10 border border-amber-400 rounded-xl">
+            <motion.div
+              initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+              className="p-10 border-4 border-amber-400 rounded-xl">
               <p className="text-blue-500 text-2xl mb-8">
                 {option.title}
               </p>
@@ -28,7 +32,7 @@ const Pricing2 = () => {
                   </motion.button>
                 </a>
               </div>
-            </div>
+            </motion.div>
           </div>
         ))}
       </div>

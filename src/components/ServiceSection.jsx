@@ -1,4 +1,6 @@
 import { features } from "../constants"
+import { motion } from 'framer-motion';
+
 const ServiceSection = () => {
   return (
     <div className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
@@ -12,7 +14,11 @@ const ServiceSection = () => {
         </div>
         <div className="flex flex-wrap mt-10 lg:mt-20">
         {features.map((feature, index) => (
-            <div className="w-full sm:1/2 lg:w-1/3" key={index}>
+            <motion.div
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            className="w-full sm:1/2 lg:w-1/3" key={index}>
                 <div className="flex">
                     <div className="flex mx-7 h-10 w-10 p-2 bg-orange-400 text-black justify-center items-center rounded-full">
                         {feature.icon}
@@ -26,7 +32,7 @@ const ServiceSection = () => {
                         </p>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         ))}
         </div>
     </div>

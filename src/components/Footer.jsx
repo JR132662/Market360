@@ -25,7 +25,7 @@ const Footer = () => {
         </h1>
         <div>
           <input
-            type="tel"
+            type="text"
             name="phone"
             placeholder="Enter your Phone Number"
             className="text-blue-500 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded px-2 focus:outline-none border-2 border-orange-500"

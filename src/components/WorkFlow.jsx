@@ -1,6 +1,7 @@
 import { CheckCircle2 } from "lucide-react"
 import Cleaning from '../assets/Cleaning.jpg'
 import { checklistItems } from "../constants"
+import { motion } from 'framer-motion';
 
 
 const WorkFlow = () => {
@@ -10,10 +11,18 @@ const WorkFlow = () => {
             Maintain an <span className="text-blue-500">Impeccable</span>{" "}<span className="text-orange-400">Standard</span>
         </h2>
         <div className="flex flex-wrap justify-center">
-            <div className="p-1 mt-14 w-full lg:w-1/2 ">
+            <motion.div
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            className="p-1 mt-14 w-full lg:w-1/2 ">
                 <img src={Cleaning} className="w-full border-2 border-blue-500 shadow-amber-400" alt="code" />
-            </div>
-            <div className="p-12 w-full lg:w-1/2">
+            </motion.div>
+            <motion.div
+             initial={{ opacity: 0, x: 100 }}
+             whileInView={{ opacity: 1, x: 0 }}
+             transition={{ duration: 0.5 }}
+             className="p-12 w-full lg:w-1/2">
                 {checklistItems.map((item, index) => (
                     <div key={index} className="flex mb-12">
                         <div className="text-blue-500 mx-6 bg-orange-400 h-10 w-10 p-2 justify-center items-center rounded-full">
@@ -25,7 +34,7 @@ const WorkFlow = () => {
                         </div>
                     </div>
                 ))}
-            </div>
+            </motion.div>
         </div>
     </div>
   )

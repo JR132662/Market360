@@ -9,7 +9,7 @@ const Pricing = () => {
       <div className="flex flex-wrap">
         {pricingOptions.map((option, index) => (
           <motion.div key={index} whileHover={{scale: 1.1}} className="w-full sm:w-1/2 lg:w-1/3 p-2">
-            <div className="p-10 border border-amber-400 rounded-xl">
+            <div className="p-10 border-4 border-amber-400 rounded-xl">
               <p className="text-blue-500 text-2xl mb-8">
                 {option.title}
               </p>
