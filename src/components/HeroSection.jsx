@@ -17,18 +17,18 @@ const HeroSection = () => {
                 needs.
             </p>
             <div className="flex justify-center my-10">
-                <a href="/About" className="bg-blue-500 text-white px-6 border rounded-md">
+                <a href="/About" className="bg-blue-500 text-white px-6 border-4 rounded-md">
                     <button className="py-2 rounded-md">Learn More</button>
                 </a>
-                <a href="#services" className="bg-orange-500 text-white border rounded-md px-6 mx-3">
+                <a href="#services" className="bg-orange-500 text-white border-4 rounded-md px-6 mx-3">
                     <button className="py-2 rounded-md">Free Quote</button>
                 </a>
             </div>
             <div className="flex mt-10 justify-center">
-                <video autoPlay loop muted className='rounded-lg w-1/2 border-2 border-blue-500 shadow-amber-400 mx-2 my-4'>
+                <video autoPlay loop muted className='rounded-lg w-1/2 border-4 border-blue-500 shadow-amber-400 mx-2 my-4'>
                     <source src={video1} type="video/mp4" />
                 </video>
-                <video autoPlay loop muted className='rounded-lg w-1/2 border-2 border-amber-400 shadow-amber-400 mx-2 my-4'>
+                <video autoPlay loop muted className='rounded-lg w-1/2 border-4 border-amber-400 shadow-amber-400 mx-2 my-4'>
                     <source src={video2} type="video/mp4" />
                 </video>
             </div>

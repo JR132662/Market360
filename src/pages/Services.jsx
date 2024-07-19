@@ -19,7 +19,7 @@ const Services = () => {
             autoPlay
             loop
             muted
-            className="rounded-lg w-1/2 border-2 border-blue-500 shadow-amber-400 mx-2 my-4"
+            className="rounded-lg w-1/2 border-4 border-blue-500 shadow-amber-400 mx-2 my-4"
           >
             <source src={video1} type="video/mp4" />
           </video>
@@ -27,7 +27,7 @@ const Services = () => {
             autoPlay
             loop
             muted
-            className="rounded-lg w-1/2 border-2 border-amber-400 shadow-amber-400 mx-2 my-4"
+            className="rounded-lg w-1/2 border-4 border-amber-400 shadow-amber-400 mx-2 my-4"
           >
             <source src={video2} type="video/mp4" />
           </video>

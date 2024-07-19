@@ -55,7 +55,6 @@ const Navbar = ({ text, handleClick }) => {
               </motion.button>
             </a>
           </div>
-
           <div className="lg:hidden md:flex flex-col justify-end">
             <button className="text-blue-500" onClick={toggleNavbar}>
               {mobileDrawerOpen ? <X /> : <Menu />}
