@@ -10,7 +10,7 @@ import Testimonials from '../components/Testimonials'
 
 function Home() {
   return (
-    <div className="max-w-7xl mx-auto lg:pt-20 sm:pt-2 px-6">
+    <div className="max-w-7xl mx-auto lg:pt-20 sm:pt-2 px-6 overflow-hidden">
     <HeroSection />
     <ServiceSection />
     <WorkFlow />

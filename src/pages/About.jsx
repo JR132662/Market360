@@ -3,7 +3,7 @@ import ServiceSection from '../components/ServiceSection'
 
 const About = () => {
   return (
-    <div className="max-w-7xl mx-auto lg:pt-10 sm:pt-2 px-6">
+    <div className="max-w-7xl mx-auto lg:pt-10 sm:pt-2 px-6 overflow-hidden">
       <div className='overflow-hidden'>
         <h1 className='text-6xl font-bold text-center text-blue-500 mt-6 py-3'>
           About{" "}<span className='text-orange-500'>us</span>
